@@ -7,15 +7,18 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="shortcut icon" type="image/svg" href="img/creative-cloud.svg" />
 
-    <title>trillo &mdash; Your all-in-one booking app</title>
+    <title>Trillo - Your all-in-one booking app</title>
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/logo.png" alt="trello logo" class="logo">
+            <!-- <img src="img/logo.png" alt="trello logo" class="logo"> -->
+            <svg class="logo">
+                <use xlink:href="img/sprite.svg#icon-creative-cloud"></use>
+            </svg>
 
             <form action="#" class="search">
                 <input type="text" class="search__input" placeholder="Search hotels">
@@ -41,8 +44,8 @@
                 </div>
                 <div class="user-nav__user">
                     <div class="img user-nav__user">
-                        <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
-                        <span class="user-nav__user-name">Jonas</span>
+                        <img src="img/user-7.jpg" alt="User photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Mike</span>
                     </div>
                 </div>
             </nav>
@@ -95,13 +98,13 @@
             <main class="hotel-view">
                 <div class="gallery">
                     <figure class="gallery__item">
-                        <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
-                    </figure>
-                    <figure class="gallery__item">
                         <img src="img/hotel-2.jpg" alt="Photo of hotel 1" class="gallery__photo">
                     </figure>
                     <figure class="gallery__item">
                         <img src="img/hotel-3.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
                     </figure>
                 </div>
 

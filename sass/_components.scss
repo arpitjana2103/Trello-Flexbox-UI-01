@@ -2,7 +2,9 @@
 /// LOGO
 
 .logo {
-    height: 3.25rem;
+    height: 3rem;
+    width: 3rem;
+    fill: var(--color-primary);
     margin-left: 2rem;
 }
 
@@ -450,6 +452,7 @@
     font-size: 1.4rem;
     position: relative;
     overflow: hidden;
+    border-radius: var(--radius-small);
 
     @media screen and (max-width: $bp-medium) {
         padding: 2rem;

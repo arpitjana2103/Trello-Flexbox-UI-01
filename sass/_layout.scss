@@ -4,6 +4,8 @@
     background-color: var(--color-grey-light-2);
     box-shadow: var(--shadow-dark);
     min-height: 50rem;
+    border-radius: var(--radius-small);
+    overflow: hidden;
 
     @media screen and (max-width: $bp-largest) {
         margin: 0;
@@ -71,6 +73,7 @@
     flex: 0 0 60%;
     margin-right: 4.5rem;
     padding: 3rem;
+    border-radius: var(--radius-small);
 
     @media screen and (max-width: $bp-medium) {
         padding: 2rem;
