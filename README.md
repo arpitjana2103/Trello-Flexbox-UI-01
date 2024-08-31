@@ -24,7 +24,6 @@ This project is a beautifully designed Trello-inspired UI page, showcasing advan
 ```
 1. Prettier-Code formatter
 2. Live Server
-
 ```
 
 **Step 2** : Install `npm packages`
