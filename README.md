@@ -1,6 +1,6 @@
 # Trello
 
-<img style="width:100%" src="/readme/Trello.png">
+<img style="width:100%" src="./readme/Trillo.png">
 
 ## About
 
